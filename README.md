@@ -1,5 +1,11 @@
 # 911 Calls
 
+**911 Calls** est un workshop permettant de manipuler le même jeu de données dans plusieurs bases NoSQL différentes.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">911-calls</span> par <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nosql-bootcamp/911-calls" property="cc:attributionName" rel="cc:attributionURL">Chris WOODROW et Sébastien PRUNIER</a> est distribué sous les termes de la licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Attribution - NonCommercial - ShareAlike</a>.
+
 ## Jeu de données
 
 Le jeu de données utilisé pour ce workshop est une liste d'appels au numéro d'urgence 911 dans le [Comté de Montgomery](https://www.google.fr/maps/place/Comt%C3%A9+de+Montgomery,+Pennsylvanie,+%C3%89tats-Unis/data=!4m2!3m1!1s0x89c69c3956b226eb:0x4b0baa22f9505dbd?sa=X&ved=0ahUKEwiMt6HWp8fRAhUG0xoKHfyWCvsQ8gEIdDAO) en Pennsylvanie.
@@ -37,7 +43,7 @@ La donnée `titre` est particulière, elle débute toujours par un identifiant p
 
 ## Objectif
 
-L'objectif est d'importer les données dans ElasticSearch et/ou dans MongoDB et de construire un certain nombre de requêtes pour répondre à différents besoin listés ci-après.
+L'objectif est d'importer les données dans [ElasticSearch](./elasticsearch) et/ou dans [MongoDB](./mongodb) et de construire un certain nombre de requêtes pour répondre à différents besoins listés ci-après.
 
 ### Compter le nombre d'appels autour de Lansdale dans un rayon de 500 mètres
 
