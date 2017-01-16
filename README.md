@@ -17,7 +17,7 @@ Extrait du jeu de données :
 Analyse de la première ligne :
 
 | Colonne   | Valeur                                               | Description               |
-| --------- | ---------------------------------------------------- | ------------------------- |
+| --------- | ---------------------------------------------------- | ------------------------- |
 | lat       | 40.2978759                                           | Latitude                  |
 | lng       | -75.5812935                                          | Longitude                 |
 | desc      | REINDEER CT & DEAD END; (...) 2015-12-10 @ 17:10:52; | Description               |
