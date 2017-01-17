@@ -6,6 +6,28 @@
 
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">911-calls</span> par <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nosql-bootcamp/911-calls" property="cc:attributionName" rel="cc:attributionURL">Chris WOODROW et Sébastien PRUNIER</a> est distribué sous les termes de la licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Attribution - NonCommercial - ShareAlike</a>.
 
+## Pré requis
+
+Nous considérons que vous avez déjà réalisé les workshops suivants :
+
+* [elasticsearch-101](https://github.com/nosql-bootcamp/elasticsearch-101)
+* [mongodb-101](https://github.com/nosql-bootcamp/mongodb-101)
+* [mongodb-102](https://github.com/nosql-bootcamp/mongodb-102)
+
+Vous allez également avoir besoin de [Node.js](https://nodejs.org). Si ce n'est pas déjà fait, [installez `node` et `npm`](https://nodejs.org/en/download/) sur votre machine.
+
+Vérifier les versions installées de `node` (minimum v6.x) et `npm` (minimum v3.x) :
+
+```bash
+node -v
+v6.9.2
+```
+
+```bash
+npm -v
+3.10.9
+```
+
 ## Jeu de données
 
 Le jeu de données utilisé pour ce workshop est une liste d'appels au numéro d'urgence 911 dans le [Comté de Montgomery](https://www.google.fr/maps/place/Comt%C3%A9+de+Montgomery,+Pennsylvanie,+%C3%89tats-Unis/data=!4m2!3m1!1s0x89c69c3956b226eb:0x4b0baa22f9505dbd?sa=X&ved=0ahUKEwiMt6HWp8fRAhUG0xoKHfyWCvsQ8gEIdDAO) en Pennsylvanie.
