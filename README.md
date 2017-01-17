@@ -82,7 +82,7 @@ Le résultat attendu est :
 
 | EMS   | Fire  | Traffic |
 | ----- | ----- | ------- |
-| 54549 | 23056 | 54549   |
+| 75589 | 23056 | 54549   |
 
 ### Trouver les 3 mois ayant comptabilisés le plus d'appels
 
@@ -90,7 +90,7 @@ Le résultat attendu est :
 
 | 01/2016 | 10/2016 | 12/2016 |
 | ------- | ------- | ------- |
-| 13084   | 12502   | 12162   |
+| 13096   | 12502   | 12162   |
 
 ### Trouver le top 3 des villes avec le plus d'appels pour overdose
 
