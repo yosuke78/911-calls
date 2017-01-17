@@ -31,6 +31,10 @@ Afin de répondre aux différents problèmes, vous allez avoir besoin de créer 
 
 À vous de jouer ! Écrivez les requêtes MongoDB permettant de résoudre les problèmes posés.
 
+```
+TODO : ajouter les requêtes MongoDB ici
+```
+
 Vous allez sûrement avoir besoin de vous inspirer des points suivants de la documentation :
 
 * Proximity search : https://docs.mongodb.com/manual/tutorial/query-a-2dsphere-index/#proximity-to-a-geojson-point

@@ -1,7 +1,5 @@
 # 911 Calls avec ElasticSearch
 
-En + pour cette partie : visualisation dans Kibana (notamment Timelion)
-
 ## Import du jeu de données
 
 Pour importer le jeu de données, complétez le script `import.js` (ici aussi, cherchez le `TODO` dans le code :wink:).
@@ -23,8 +21,14 @@ GET <nom de votre index>/_count
 
 À vous de jouer ! Écrivez les requêtes ElasticSearch permettant de résoudre les problèmes posés.
 
+```
+TODO : ajouter les requêtes ElasticSearch ici
+```
+
 ## Kibana
+
 Dans Kibana, créez un dashboard qui permet de visualiser :
+
 * Une carte de l'ensemble des appels
 * Un histogramme des appels répartis par catégories
 * Un Pie chart réparti par bimestre, par catégories et par canton (township)
@@ -38,6 +42,7 @@ Réalisez le diagramme suivant :
 ![](images/timelion-chart.png)
 
 Envoyer la réponse sous la forme de la requête Timelion ci-dessous:  
+
 ```
 TODO : ajouter la requête Timelion ici
 ```
