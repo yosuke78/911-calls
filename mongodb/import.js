@@ -40,7 +40,15 @@ MongoClient.connect(mongoUrl, (err, db) => {
             else {
                 console.log("2D index created");
             }
-            db.close();
         } );
+        db.collection('calls').createIndex( { title: "text" }, (err) => {
+        if(err) {
+            console.log(err);
+        }
+        else {
+            console.log("Title text index created");
+        }
+        db.close();
+    } );
     });
 });
