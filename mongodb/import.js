@@ -12,7 +12,15 @@ var insertCalls = function(db, callback) {
     fs.createReadStream('../911.csv')
         .pipe(csv())
         .on('data', data => {
-            var call : {}; // TODO créer l'objet call à partir de la ligne
+            var call = {
+                "loc": { type: "Point", coordinates: [ parseFloat(data.lng), parseFloat(data.lat) ]},
+                "desc": data.desc,
+                "zip": data.zip,
+                "title": data.title,
+                "timeStamp": data.timeStamp,
+                "twp": data.twp,
+                "addr": data.addr
+            }; // TODO créer l'objet call à partir de la ligne
             calls.push(call);
         })
         .on('end', () => {
@@ -25,6 +33,14 @@ var insertCalls = function(db, callback) {
 MongoClient.connect(mongoUrl, (err, db) => {
     insertCalls(db, result => {
         console.log(`${result.insertedCount} calls inserted`);
-        db.close();
+        db.collection('calls').createIndex( { loc : "2dsphere" }, (err) => {
+            if(err) {
+                console.log(err);
+            }
+            else {
+                console.log("2D index created");
+            }
+            db.close();
+        } );
     });
 });
