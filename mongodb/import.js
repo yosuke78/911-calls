@@ -13,7 +13,7 @@ var insertCalls = function(db, callback) {
         .pipe(csv())
         .on('data', data => {
             var call = {
-                "loc": { type: "Point", coordinates: [ parseInt(data.lng), parseInt(data.lat) ]},
+                "loc": { type: "Point", coordinates: [ parseFloat(data.lng), parseFloat(data.lat) ]},
                 "desc": data.desc,
                 "zip": data.zip,
                 "title": data.title,
